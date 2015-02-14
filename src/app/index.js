@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('', ['ngAnimate', 'ngResource', 'ngRoute', 'ngMaterial'])
+angular.module('rand-page-js', ['ngAnimate', 'ngResource', 'ngRoute', 'ngMaterial'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
