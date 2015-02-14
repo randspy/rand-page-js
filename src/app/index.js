@@ -4,8 +4,8 @@ angular.module('rand-page-js', ['ngAnimate', 'ngResource', 'ngRoute', 'ngMateria
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'app/main/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'app/home/home.html',
+        controller: 'HomeCtrl'
       })
       .otherwise({
         redirectTo: '/'
