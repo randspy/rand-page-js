@@ -1,5 +1,5 @@
 body {
-  font-family: 'Tangerine', serif;
+  font-family: 'Asap', serif;
 }
 
 .header-source-code {
@@ -9,22 +9,19 @@ body {
   padding-right: 30%;
 }
 
-
-.blog-header {
-  padding-top: 0px;
-  padding-bottom: 0px;
+.blog-header-fixed {
+  position: fixed;
+  top: 0;
 }
 
 .blog-main {
   font-size: 18px;
-  line-height: 1.5;
+  padding-top: 40px;
   padding-left: 20%;
   padding-right: 20%;
 }
 
-md-toolbar.md-blue-theme {
-  background-color: #29b6f6;
-  color: white;
+.white-strip{
+  height: 50px;
+  background: white;
 }
-
-

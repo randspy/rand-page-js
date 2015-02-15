@@ -1,6 +1,7 @@
 'use strict';
 
-angular.module('rand-page-js', ['ngAnimate', 'ngResource', 'ngRoute', 'ngMaterial', 'btford.markdown'])
+angular.module('rand-page-js',
+  ['ngAnimate', 'ngResource', 'ngRoute', 'ngMaterial', 'btford.markdown', 'angular-inview'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
