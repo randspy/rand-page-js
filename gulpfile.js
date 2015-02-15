@@ -11,6 +11,8 @@ gulp.paths = {
 
 require('require-dir')('./gulp');
 
+var karma = require('karma').server;
+
 gulp.task('default', ['clean'], function () {
     gulp.start('build');
 });

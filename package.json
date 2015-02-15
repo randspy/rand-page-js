@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "rand-page-js",
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
@@ -24,7 +24,7 @@
     "gulp-minify-html": "~0.1.7",
     "gulp-inject": "~1.0.2",
     "gulp-protractor": "~0.0.11",
-    "gulp-karma": "~0.0.4",
+    "gulp-karma": "0.0.4",
     "gulp-angular-filesort": "~1.0.4",
     "main-bower-files": "~2.4.0",
     "jshint-stylish": "~1.0.0",
