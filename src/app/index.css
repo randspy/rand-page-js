@@ -14,14 +14,15 @@ body {
   top: 0;
 }
 
-.blog-main {
-  font-size: 18px;
-  padding-top: 40px;
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
 .white-strip{
   height: 50px;
   background: white;
 }
+
+
+.blog-main {
+  font-size: 18px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
