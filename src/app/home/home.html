@@ -1,7 +1,11 @@
 <div ng-controller="HomeCtrl" layout="column" layout-align="top center">
   <div>
     <page-header></page-header>
-    <div class="blog-main" btf-markdown ng-include="'../../assets/articles/2014-05-08-function-params.md'">
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8 blog-main" btf-markdown ng-include="'../../assets/articles/2014-05-08-function-params.md'"></div>
+      <div class="col-xs-1 col-md-2"></div>
+    </div>
     </div>
   </div>
 </div>

@@ -3,10 +3,11 @@ body {
 }
 
 .header-source-code {
-  font-size: 12px;
+  font-size: 15px;
   color: deepskyblue;
-  padding-left: 30%;
-  padding-right: 30%;
+  background-color: white;
+  border-color: white;
+  resize: none;
 }
 
 .blog-header-fixed {
@@ -21,9 +22,7 @@ body {
 
 
 .blog-main {
-  font-size: 18px;
-  padding-left: 20%;
-  padding-right: 20%;
+  font-size: 24px;
 }
 
 .stretch {
