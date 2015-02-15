@@ -1,20 +1,6 @@
 <div ng-controller="HomeCtrl" layout="column" layout-align="top center">
-
   <div>
-    <div btf-markdown class="header-source-code" layout-align="center center">
-      new BlogPost.Builder()
-      .withTitle("Code matters")
-      .build();
-    </div>
-
-    <div in-view="elemInView($inview, $inviewpart, $event)">
-      <navigation-bar class="blog-header ng-isolate-scope md-default-theme"></navigation-bar>
-    </div>
-
-    <div ng-if="checked" layaut="column">
-      <navigation-bar class="blog-header-fixed ng-isolate-scope md-default-theme"></navigation-bar>
-    </div>
-
+    <page-header></page-header>
     <div class="blog-main" btf-markdown ng-include="'../../assets/articles/2014-05-08-function-params.md'">
     </div>
   </div>

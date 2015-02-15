@@ -8,6 +8,10 @@ angular.module('rand-page-js',
         templateUrl: 'app/home/home.html',
         controller: 'HomeCtrl'
       })
+      .when('/posts', {
+        templateUrl: 'app/posts/posts.html',
+        controller: 'PostsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

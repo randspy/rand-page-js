@@ -1,0 +1,13 @@
+<div>
+  <pre class="header-source-code" layout-align="center center">
+    <code>new BlogPost.Builder()
+      .withTitle("Code matters")
+      .build();</code>
+  </pre>
+  <div in-view="elemInView($inview, $inviewpart, $event)">
+    <navigation-bar class="blog-header ng-isolate-scope md-default-theme"></navigation-bar>
+  </div>
+  <div ng-if="checked" layaut="column">
+    <navigation-bar class="blog-header-fixed ng-isolate-scope md-default-theme"></navigation-bar>
+  </div>
+</div>
