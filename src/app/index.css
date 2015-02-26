@@ -20,6 +20,9 @@ body {
   background: white;
 }
 
+.page-footer{
+  height: 50px;
+}
 
 .blog-main {
   font-size: 24px;
