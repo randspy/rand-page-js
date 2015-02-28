@@ -7,3 +7,15 @@
 .header-nav{
   height:180px
 }
+
+.custom-panel-title{
+  font-size: 27px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.custom-main-content{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

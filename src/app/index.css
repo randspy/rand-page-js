@@ -16,8 +16,7 @@ body {
 }
 
 .white-strip{
-  height: 50px;
-  background: white;
+  height: 20px;
 }
 
 .page-footer{
@@ -25,10 +24,16 @@ body {
 }
 
 .blog-main {
-  font-size: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .stretch {
   width: 100%;
+}
+
+.row-no-margins {
+  margin-left: -10px !important;
+  margin-right: -10px !important;
 }
 
