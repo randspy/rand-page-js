@@ -67,9 +67,26 @@ gulp.task('images', function () {
     .pipe(gulp.dest(paths.dist + '/assets/images/'));
 });
 
+gulp.task('html_src', function () {
+  return gulp.src(paths.src + '/app/**/*.html')
+    .pipe(gulp.dest(paths.dist + '/app/'));
+});
+
+
+gulp.task('css', function () {
+  return gulp.src(paths.src + '/assets/css/**/*')
+    .pipe(gulp.dest(paths.dist + '/assets/css/'));
+});
+
+gulp.task('articles', function () {
+  return gulp.src(paths.src + '/assets/articles/**/*')
+    .pipe(gulp.dest(paths.dist + '/assets/articles/'));
+});
+
+
 gulp.task('fonts', function () {
   return gulp.src($.mainBowerFiles())
-    .pipe($.filter('**/*.{eot,svg,ttf,woff}'))
+    .pipe($.filter('**/*.{eot,svg,ttf,woff,woff2}'))
     .pipe($.flatten())
     .pipe(gulp.dest(paths.dist + '/fonts/'));
 });
@@ -83,4 +100,4 @@ gulp.task('clean', function (done) {
   $.del([paths.dist + '/', paths.tmp + '/'], done);
 });
 
-gulp.task('build', ['html', 'images', 'fonts', 'misc']);
+gulp.task('build', ['html', 'html_src', 'images', 'fonts', 'misc', 'css', 'articles']);
